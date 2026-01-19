@@ -1,77 +1,107 @@
-# 🌊 Corcovado - Agenda Marítima Inteligente
-
 <div align="center">
 
-![Status](https://img.shields.io/badge/Status-Ativo-00d9ff?style=for-the-badge)
-![TypeScript](https://img.shields.io/badge/TypeScript-100%25-0ea5e9?style=for-the-badge)
-![React](https://img.shields.io/badge/React-19-00d9ff?style=for-the-badge)
-![Node](https://img.shields.io/badge/Node.js-20+-0ea5e9?style=for-the-badge)
+# Corcovado - Agenda Marítima Inteligente
 
-**Sistema de gestão marítima com interface dark futurista e design neon**
+![Status](https://img.shields.io/badge/Status-Active-00d9ff?style=for-the-badge&logo=checkmarx&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Node](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-0ea5e9?style=for-the-badge)
 
-[Demo](#) · [Reportar Bug](#) · [Solicitar Feature](#)
+**Sistema profissional de gestão marítima com interface dark futurista**
+
+[Instalação](#instalação) • [Recursos](#recursos) • [API](#api) • [Licença](#licença)
 
 </div>
 
 ---
 
-## 🎯 Sobre o Projeto
+## Sobre o Projeto
 
-**Corcovado Gestão Marítima** é uma aplicação web moderna e elegante para gerenciamento de eventos e operações marítimas. Com um design dark futurista inspirado em dashboards executivos, oferece uma experiência visual única com efeitos glassmorphism e cores neon vibrantes.
+**Corcovado Gestão Marítima** é uma aplicação web moderna para gerenciamento de eventos e operações marítimas. Desenvolvida com React 19 e TypeScript, oferece uma experiência visual única com design dark futurista, efeitos glassmorphism e cores neon vibrantes.
 
-### ✨ Destaques
+### Principais Características
 
-- 🎨 **Interface Dark Futurista** - Design moderno com glassmorphism e efeitos neon
-- 📊 **Dashboard Analítico** - Métricas em tempo real com visualizações intuitivas
-- 🔍 **Sistema de Filtros** - Filtragem avançada por categoria e prioridade
-- ⚡ **Performance Otimizada** - React 19 com TypeScript para máxima eficiência
-- 🎭 **Experiência Premium** - Animações suaves e feedback visual rico
-- 🌐 **API RESTful** - Backend robusto com Express e TypeScript
+**Interface Dark Futurista**  
+Design moderno com glassmorphism, animações suaves e efeitos neon
+
+**Dashboard Analítico Completo**  
+Métricas em tempo real com visualizações intuitivas e cards informativos
+
+**Sistema de Filtros Avançado**  
+Filtragem por categoria e prioridade com resultados instantâneos
+
+**Performance Otimizada**  
+React 19 com TypeScript garantindo máxima eficiência e type-safety
+
+**API RESTful Robusta**  
+Backend em Express com persistência em arquivo JSON para demonstrações
 
 ---
 
-## 🚀 Funcionalidades
+## Recursos
 
-### 📅 Calendário Inteligente
+### Calendário Inteligente
+
 - Visualização mensal com eventos organizados
-- Navegação fluida entre meses
+- Navegação fluida entre meses com transições suaves
 - Destaque do dia atual com efeito neon
-- Eventos codificados por cores
+- Eventos codificados por cores customizáveis
 - Altura consistente dos dias (130px)
 
-### 📝 Gestão de Eventos
-- **Criação rápida** com formulário modal elegante
-- **Edição inline** diretamente no calendário
-- **Exclusão** com confirmação visual
-- **Categorias marítimas**: Operacional, Manutenção, Segurança, Ambiental, Administrativo, Treinamento
-- **Níveis de prioridade**: Urgente, Alta, Normal, Baixa
-- **Date picker customizado** com interface visual
+### Gestão de Eventos
 
-### 📊 Dashboard de Métricas
-- **4 Cards principais**:
-  - Total de eventos do mês
-  - Próximos eventos (7 dias)
-  - Eventos urgentes
-  - Alta prioridade
-- **Breakdown por categoria** com contadores
-- **Barras de distribuição por prioridade** com percentuais e cores diferenciadas
+**Criação e Edição Completa**
+- Formulário modal elegante com validação
+- Edição inline diretamente no calendário
+- Date picker customizado com interface visual
+- Exclusão com confirmação de segurança
 
-### 🔎 Sistema de Filtros
-- Filtro por **categoria** (6 opções)
-- Filtro por **prioridade** (4 níveis)
+**Categorias Marítimas Disponíveis**
+- Operacional
+- Manutenção
+- Segurança
+- Ambiental
+- Administrativo
+- Treinamento
+
+**Níveis de Prioridade**
+- Urgente (rosa vibrante)
+- Alta (laranja/amarelo)
+- Normal (cyan)
+- Baixa (verde)
+
+### Dashboard de Métricas
+
+**4 Cards Principais**
+- Total de eventos do mês atual
+- Próximos eventos (7 dias)
+- Eventos com prioridade urgente
+- Eventos com alta prioridade
+
+**Visualizações Adicionais**
+- Breakdown por categoria com contadores
+- Barras de distribuição por prioridade
+- Percentuais visuais com cores diferenciadas
+
+### Sistema de Filtros
+
+- Filtro por categoria (6 opções marítimas)
+- Filtro por prioridade (4 níveis)
 - Contador de resultados em tempo real
 - Interface integrada ao design neon
 
-### 🎯 Sidebar de Eventos
-- Listagem dos próximos eventos
-- Cards com glassmorphism
-- Informações completas: data, hora, categoria, prioridade
-- Ação rápida de exclusão
+### Sidebar de Eventos
+
+- Listagem dos próximos eventos ordenados
+- Cards com efeito glassmorphism
+- Informações completas (data, hora, categoria, prioridade)
+- Ações rápidas de edição e exclusão
 - Scroll customizado com tema dark
 
 ---
 
-## 🎨 Design System
+## Design System
 
 ### Paleta de Cores
 
@@ -99,18 +129,18 @@
 - **Glassmorphism**: `backdrop-filter: blur(20px)`
 - **Neon Glow**: `box-shadow` em múltiplas camadas
 - **Gradientes**: Transições suaves cyan → azul
-- **Animações**: Transições de 0.3s com `ease`
+- **Animações**: Transições de 0.4s com `cubic-bezier(0.4, 0, 0.2, 1)`
 
 ---
 
-## 🛠️ Stack Tecnológico
+## Stack Tecnológico
 
 ### Frontend
 ```
 React          v19.2.0
 TypeScript     v5.6.2
 Vite           v7.3.1
-CSS3           (Custom + Gradients)
+CSS3           Custom Animations
 ```
 
 ### Backend
@@ -118,7 +148,7 @@ CSS3           (Custom + Gradients)
 Node.js        v20+
 Express        v4.18.2
 TypeScript     v5.3.3
-TSX            v4.7.0 (dev runtime)
+TSX            v4.7.0
 CORS           v2.8.5
 ```
 
@@ -130,25 +160,26 @@ ESLint         v9.18.0
 
 ---
 
-## � Banco de Dados
+## Banco de Dados
 
-Este projeto utiliza **armazenamento em arquivo JSON** para persistência de dados, ideal para apresentações e demonstrações locais.
+Sistema de armazenamento em **arquivo JSON** para persistência local.
 
-### Sistema de Armazenamento
+### Características
 
-#### Características
-- ✅ **Zero configuração** - Sem instalação de banco de dados
-- ✅ **Arquivo JSON legível** - Fácil visualização e debug
-- ✅ **Auto-inicialização** - Cria estrutura automaticamente
-- ✅ **Persistência local** - Dados salvos entre reinicializações
-- ✅ **Perfeito para demos** - Sem complexidade adicional
+- Zero configuração (sem instalação de banco de dados)
+- Arquivo JSON legível para fácil visualização
+- Auto-inicialização (cria estrutura automaticamente)
+- Persistência entre reinicializações
+- Perfeito para demos e desenvolvimento local
 
-#### Localização
+### Localização
+
 ```
 server/data/events.json
 ```
 
-#### Estrutura do Arquivo
+### Estrutura do Arquivo
+
 ```json
 {
   "events": [
@@ -166,14 +197,8 @@ server/data/events.json
 }
 ```
 
-#### Implementação
-O sistema usa a classe `JSONStorage` que gerencia:
-- **Leitura/Escrita** - Operações síncronas no arquivo
-- **Auto-criação** - Cria diretório e arquivo se não existirem
-- **IDs incrementais** - Controle automático de IDs únicos
-- **CRUD completo** - Create, Read, Update, Delete
+### Classe JSONStorage
 
-#### Métodos Disponíveis
 ```typescript
 storage.getAllEvents()           // Lista todos os eventos
 storage.getEventById(id)         // Busca evento específico
@@ -185,16 +210,18 @@ storage.clearAll()               // Limpa todos os dados
 
 ---
 
-## �📦 Instalação
+## Instalação
 
 ### Pré-requisitos
+
 - Node.js 20+ 
 - npm ou yarn
 
 ### Clonando o Repositório
+
 ```bash
-git clone https://github.com/seu-usuario/agenda-inteligente.git
-cd "Agenda inteligente"
+git clone https://github.com/Shyadou/agenda-inteligente.git
+cd agenda-inteligente
 ```
 
 ### Instalando Dependências
@@ -213,9 +240,10 @@ cd ..
 
 ---
 
-## ⚡ Executando o Projeto
+## Executando o Projeto
 
 ### Opção 1: Rodar Tudo (Recomendado)
+
 ```bash
 # No VS Code, use a task configurada:
 Terminal > Run Task > Rodar Tudo
@@ -235,258 +263,167 @@ npm run dev
 ```
 
 ### Acessando
+
 - **Frontend**: http://localhost:5173
 - **Backend**: http://localhost:3001
 
 ---
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
-Agenda inteligente/
+agenda-inteligente/
 │
-├── 📁 src/                          # Frontend React
-│   ├── 📁 components/               # Componentes reutilizáveis
-│   │   ├── Calendar.tsx             # Calendário mensal (130px por dia)
-│   │   ├── Dashboard.tsx            # Dashboard com métricas
-│   │   ├── DateTimePicker.tsx       # Seletor visual de data/hora
-│   │   ├── EventForm.tsx            # Modal de criação/edição
-│   │   └── EventList.tsx            # Sidebar de eventos
+├── src/                          # Frontend React
+│   ├── components/               # Componentes reutilizáveis
+│   │   ├── Calendar.tsx          # Calendário mensal
+│   │   ├── Dashboard.tsx         # Dashboard com métricas
+│   │   ├── DateTimePicker.tsx    # Seletor de data/hora
+│   │   ├── EventForm.tsx         # Modal de criação/edição
+│   │   └── EventList.tsx         # Sidebar de eventos
 │   │
-│   ├── 📁 services/                 # Camada de serviços
-│   │   └── api.ts                   # Cliente HTTP (axios)
+│   ├── services/                 # Camada de serviços
+│   │   └── api.ts                # Cliente HTTP (axios)
 │   │
-│   ├── 📁 types/                    # Interfaces TypeScript
-│   │   └── Event.ts                 # Event, EventInput
+│   ├── types/                    # Interfaces TypeScript
+│   │   └── Event.ts              # Event, EventInput
 │   │
-│   ├── App.tsx                      # Componente raiz
-│   ├── App.css                      # Design system completo
-│   ├── main.tsx                     # Entry point
-│   └── index.css                    # Reset CSS
+│   ├── App.tsx                   # Componente raiz
+│   ├── App.css                   # Design system completo
+│   ├── main.tsx                  # Entry point
+│   └── index.css                 # Reset CSS
 │
-├── 📁 server/                       # Backend Node.js
-│   ├── 📁 src/
-│   │   ├── 📁 models/               # Modelos de dados
-│   │   │   └── Event.ts             # Interface do evento
+├── server/                       # Backend Node.js
+│   ├── src/
+│   │   ├── models/               # Modelos de dados
+│   │   │   └── Event.ts          # Interface do evento
 │   │   │
-│   │   ├── 📁 routes/               # Rotas da API
-│   │   │   └── events.ts            # CRUD de eventos
+│   │   ├── routes/               # Rotas da API
+│   │   │   └── events.ts         # CRUD de eventos
 │   │   │
-│   │   └── index.ts                 # Servidor Express
+│   │   ├── database/             # Camada de persistência
+│   │   │   └── storage.ts        # JSONStorage class
+│   │   │
+│   │   └── index.ts              # Server Express
 │   │
-│   ├── package.json                 # Dependências backend
-│   └── tsconfig.json                # Config TypeScript
+│   ├── data/                     # Banco de dados JSON
+│   │   └── events.json           # Arquivo de dados
+│   │
+│   └── package.json              # Dependências backend
 │
-├── 📁 .vscode/
-│   └── tasks.json                   # Tasks automatizadas
+├── .github/
+│   └── copilot-instructions.md   # Instruções do Copilot
 │
-├── 📁 public/                       # Assets estáticos
-├── package.json                     # Dependências frontend
-├── tsconfig.json                    # Config TypeScript
-├── vite.config.ts                   # Config Vite
-└── README.md                        # Este arquivo
+├── CHANGELOG.md                  # Histórico de versões
+├── CONTRIBUTING.md               # Guia de contribuição
+├── LICENSE                       # Licença MIT
+└── README.md                     # Este arquivo
 ```
 
 ---
 
-## 🔌 API Endpoints
+## API
 
 ### Base URL
+
 ```
 http://localhost:3001/api
 ```
 
-### Rotas
+### Endpoints Disponíveis
 
 | Método | Endpoint | Descrição |
 |--------|----------|-----------|
-| `GET` | `/events` | Lista todos os eventos |
-| `GET` | `/events/:id` | Busca evento por ID |
-| `POST` | `/events` | Cria novo evento |
-| `PUT` | `/events/:id` | Atualiza evento |
-| `DELETE` | `/events/:id` | Deleta evento |
+| GET | `/events` | Lista todos os eventos |
+| GET | `/events/:id` | Busca evento por ID |
+| POST | `/events` | Cria novo evento |
+| PUT | `/events/:id` | Atualiza evento |
+| DELETE | `/events/:id` | Remove evento |
 
-### Exemplo de Request
+### Exemplo de Requisição
 
 **POST /api/events**
+
 ```json
 {
   "title": "Inspeção de Segurança",
-  "description": "Vistoria trimestral do equipamento",
-  "startDate": "2026-01-20T09:00:00",
-  "endDate": "2026-01-20T12:00:00",
-  "color": "#00d9ff",
+  "description": "Verificação trimestral",
+  "startDate": "2025-02-15T09:00:00",
+  "endDate": "2025-02-15T12:00:00",
   "category": "Segurança",
   "priority": "alta",
-  "location": "Deck Principal"
+  "color": "#ec4899",
+  "location": "Porto de Santos"
+}
+```
+
+### Exemplo de Resposta
+
+```json
+{
+  "id": "1",
+  "title": "Inspeção de Segurança",
+  "description": "Verificação trimestral",
+  "startDate": "2025-02-15T09:00:00",
+  "endDate": "2025-02-15T12:00:00",
+  "category": "Segurança",
+  "priority": "alta",
+  "color": "#ec4899",
+  "location": "Porto de Santos"
 }
 ```
 
 ---
 
-## 🎯 Roadmap
+## Scripts Disponíveis
 
-- [x] Sistema de prioridades
-- [x] Dashboard com métricas
-- [x] Filtros por categoria e prioridade
-- [x] Design dark futurista
-- [x] DatePicker customizado
-- [ ] Autenticação de usuários
-- [ ] Notificações push
-- [ ] Exportação para PDF
-- [ ] Integração com calendário externo (Google Calendar)
-- [ ] Modo offline (PWA)
-- [ ] Tema claro (opcional)
+### Frontend
 
----
+```bash
+npm run dev          # Inicia servidor de desenvolvimento
+npm run build        # Build para produção
+npm run preview      # Preview do build
+npm run lint         # Executa ESLint
+```
 
-## 🤝 Contribuindo
+### Backend
 
-Contribuições são bem-vindas! Para contribuir:
-
-1. Fork o projeto
-2. Crie uma branch (`git checkout -b feature/NovaFuncionalidade`)
-3. Commit suas mudanças (`git commit -m 'Adiciona nova funcionalidade'`)
-4. Push para a branch (`git push origin feature/NovaFuncionalidade`)
-5. Abra um Pull Request
+```bash
+npm run dev          # Inicia servidor em modo desenvolvimento (tsx watch)
+npm run build        # Compila TypeScript para JavaScript
+npm start            # Executa servidor compilado
+```
 
 ---
 
-## 📝 Licença
+## Contribuindo
 
-Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
-
----
-
-## 👤 Autor
-
-**Corcovado Gestão Marítima**
-
-- Website: [corcovado.com.br](#)
-- GitHub: [@corcovado](#)
+Contribuições são bem-vindas! Por favor, leia o [CONTRIBUTING.md](CONTRIBUTING.md) para detalhes sobre nosso código de conduta e o processo para enviar pull requests.
 
 ---
 
-## 🙏 Agradecimentos
+## Licença
 
-- Design inspirado em dashboards executivos modernos
-- Ícones e efeitos visuais customizados
-- Comunidade React e TypeScript
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+
+---
+
+## Autor
+
+Desenvolvido por [@Shyadou](https://github.com/Shyadou)
+
+---
+
+## Changelog
+
+Para ver o histórico completo de mudanças, consulte o [CHANGELOG.md](CHANGELOG.md)
 
 ---
 
 <div align="center">
 
-**⚓ Desenvolvido com dedicação para operações marítimas de excelência ⚓**
+**Corcovado Agenda Marítima** v2.0.0
 
-![Wave](https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg)
+Made with TypeScript, React and dedication
 
 </div>
-│       ├── routes/         # Rotas da API
-│       │   └── events.ts   # Endpoints de eventos
-│       └── index.ts        # Servidor Express
-│
-└── .vscode/
-    └── tasks.json          # Tarefas do VS Code
-```
-
-## 🏃 Como Executar
-
-### Instalação
-
-As dependências já foram instaladas. Caso precise reinstalar:
-
-```bash
-# Frontend
-npm install
-
-# Backend
-cd server
-npm install
-```
-
-### Executando a Aplicação
-
-**Opção 1: Executar Tudo de Uma Vez**
-
-Pressione `Ctrl+Shift+P` (ou `Cmd+Shift+P` no Mac) e digite "Tasks: Run Task", depois selecione "Rodar Tudo".
-
-**Opção 2: Terminal Manual**
-
-```bash
-# Terminal 1 - Backend (porta 3001)
-cd server
-npm run dev
-
-# Terminal 2 - Frontend (porta 5173)
-npm run dev
-```
-
-### Acessando a Aplicação
-
-- **Frontend**: http://localhost:5173
-- **Backend API**: http://localhost:3001
-- **Health Check**: http://localhost:3001/api/health
-
-## 🌐 API Endpoints
-
-### Eventos
-
-- `GET /api/events` - Listar todos os eventos
-- `GET /api/events/:id` - Buscar evento específico
-- `POST /api/events` - Criar novo evento
-- `PUT /api/events/:id` - Atualizar evento
-- `DELETE /api/events/:id` - Deletar evento
-
-### Exemplo de Payload (POST/PUT)
-
-```json
-{
-  "title": "Reunião de Equipe",
-  "description": "Discussão sobre o projeto",
-  "startDate": "2026-01-17T10:00:00",
-  "endDate": "2026-01-17T11:00:00",
-  "color": "#3b82f6",
-  "reminder": 15,
-  "category": "Trabalho",
-  "location": "Sala de reuniões"
-}
-```
-
-## 🎨 Componentes Principais
-
-### Calendar
-Exibe o calendário mensal com todos os eventos. Permite navegação entre meses e clique em datas para criar eventos.
-
-### EventForm
-Formulário modal para criar e editar eventos com validação de campos obrigatórios.
-
-### EventList
-Lista lateral com todos os eventos ordenados por data, mostrando detalhes completos.
-
-## 🔄 Próximas Melhorias
-
-- [ ] Persistência em banco de dados (MongoDB/PostgreSQL)
-- [ ] Sistema de autenticação
-- [ ] Notificações em tempo real
-- [ ] Visualização semanal e diária
-- [ ] Exportar para Google Calendar/iCal
-- [ ] Busca e filtros avançados
-- [ ] Eventos recorrentes
-- [ ] Compartilhamento de eventos
-- [ ] Dark mode
-
-## 📝 Notas de Desenvolvimento
-
-- O backend atualmente usa armazenamento em memória. Os dados são perdidos ao reiniciar o servidor.
-- Os eventos de exemplo são criados automaticamente na inicialização.
-- O CORS está habilitado para permitir comunicação entre frontend e backend.
-
-## 🤝 Contribuindo
-
-Sinta-se à vontade para contribuir com melhorias! Este projeto está em desenvolvimento ativo.
-
----
-
-Desenvolvido com ❤️ usando React e Node.js
-```

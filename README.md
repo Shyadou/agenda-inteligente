@@ -422,7 +422,7 @@ Para ver o histórico completo de mudanças, consulte o [CHANGELOG.md](CHANGELOG
 
 <div align="center">
 
-**Corcovado Agenda Marítima** v2.0.0
+**corcovado ** v2.0.0
 
 Made with TypeScript, React and dedication
 
